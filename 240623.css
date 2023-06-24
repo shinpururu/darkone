@@ -1,0 +1,107 @@
+div.post-content.blog_total_counter, div.left-menu__friends.left-menu__friends_offline, div.blog__read-me, div.blog__last-comments {
+display: none;
+}
+
+/* Фон */
+
+body {
+background-color: #000;
+background-image: url("https://i.imgur.com/GtqPZHM.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* Главное меню */
+
+nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm {
+background-image: url("https://i.imgur.com/GtqPZHM.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+box-shadow: none;
+}
+
+a.my-menu {
+color: #787878;
+transition: .5s;
+}
+
+a.my-menu:hover {
+color: #575757;
+transition: .5s;
+}
+
+/* Записи, комментарии, формы */
+
+div.post-content {
+background-image: url("https://i.imgur.com/TIn5Tgn.png");
+background-attachment: fixed;
+border: 1px solid;
+border-color: #292929;
+color: #575757;
+}
+
+/* Меню */
+
+div.blog__about {
+padding-bottom: 5px;
+}
+
+div.left-menu {
+background-image: url("https://i.imgur.com/J0xg8Wx.png");
+background-attachment: fixed;
+border: 1px solid;
+border-color: #292929;
+color: #575757;
+}
+
+div.textareabg.p-1, div.textareabg, div.comment-content {
+background-color: transparent;
+background-image: url("https://i.imgur.com/1lrYPPe.png");
+background-attachment: fixed;
+border: 1px solid;
+border-color: #292929;
+color: #575757;
+}
+
+h3.left-menu-text {
+background-color: transparent;
+background-image: url("https://i.imgur.com/W3sEkle.png");
+background-repeat: repeat;
+border: 1px solid;
+border-color: #292929;
+color: #787878;
+}
+
+div.datebg {
+background-color: transparent;
+background-image: url("https://i.imgur.com/TIn5Tgn.png");
+background-attachment: fixed;
+border: 1px solid;
+border-color: #292929;
+color: #575757;
+}
+
+/* Ссылки */
+
+a {
+color: #787878;
+transition: .5s;
+}
+
+a:hover {
+color: #575757;
+transition: .5s;
+}
+
+div.crumbs {
+color: #575757;
+}
+
+/* Поля и кнопки */
+
+div div input, textarea.postdesc, form div textarea {
+color: #575757;
+background-color: #000;
+border: 1px solid;
+border-color: #292929;
+}
